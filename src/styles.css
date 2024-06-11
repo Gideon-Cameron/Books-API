@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('bookshelf.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    max-width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Book List Styles */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  p {
+    display: none;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    li {
+      width: 80%;
+    }
+  }
+  
