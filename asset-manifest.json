@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Books-API/static/css/main.871b4fc7.css",
+    "main.js": "/Books-API/static/js/main.73feed64.js",
+    "static/js/453.d88a9f1f.chunk.js": "/Books-API/static/js/453.d88a9f1f.chunk.js",
+    "static/media/bookshelf.png": "/Books-API/static/media/bookshelf.7b6b7467cd83f4871538.png",
+    "index.html": "/Books-API/index.html",
+    "main.871b4fc7.css.map": "/Books-API/static/css/main.871b4fc7.css.map",
+    "main.73feed64.js.map": "/Books-API/static/js/main.73feed64.js.map",
+    "453.d88a9f1f.chunk.js.map": "/Books-API/static/js/453.d88a9f1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.871b4fc7.css",
+    "static/js/main.73feed64.js"
+  ]
+}
